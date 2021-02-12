@@ -4,7 +4,7 @@
 
 This repository contains Solidity and Python implementations of several cryptographic primitives, they are designed to work together and make it easier to build novel cryptosystems using composable primitives. These implementations can be easily switched to either the secp256k1 or alt_bn128 curves.
 
-## Algorithms
+## Algorithms:
 
  * Schnorr proof of knowledge: [Schnorr.sol](contracts/Schnorr.sol), [schnorr.py](pysolcrypto/schnorr.py)
  * AOS ring signatures: [AOSRing.sol](contracts/AOSRing.sol), [aosring.py](pysolcrypto/aosring.py)
@@ -13,13 +13,13 @@ This repository contains Solidity and Python implementations of several cryptogr
  * Merkle tree: [MerkleProof.sol](contracts/MerkleProof.sol), [merkle.py](pysolcrypto/merkle.py)
  * Fast AOS ring signatures, using `ecrecover`: [HackyAOSRing.sol](contracts/HackyAOSRing.sol), [hackyaosring.py](pysolcrypto/hackyaosring.py), see [this post on ethresear.ch](https://ethresear.ch/t/you-can-kinda-abuse-ecrecover-to-do-ecmul-in-secp256k1-today/2384)
 
-## TODO
+## TODO:
 
- * Pedersen commitments
- * Security hardening
- * Documentation
+ * [ ] Pedersen commitments
+ * [ ] Security hardening
+ * [ ] Documentation
 
-## White Papers
+## References:
 
  * [How to Leak a Secret](https://people.csail.mit.edu/rivest/pubs/RST01.pdf)
  * [Linkable Spontaneous Anonymous Group Signature for Ad Hoc Groups](https://eprint.iacr.org/2004/027.pdf)
